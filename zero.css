@@ -1,0 +1,172 @@
+
+body{
+      background-image: url('img4.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+#btn{
+
+      font-size: 40px;
+
+      padding: 30px;
+
+font-family: Times;
+
+     
+     
+      border: 3px solid;
+      border-radius: 25px;
+
+      transition-property: transform ;
+      transition-duration: 0.3s;
+      transition-timing-function:ease-in-out ;
+      transition-delay: 0;
+
+}
+
+#btn:hover{
+      transform:translateY(-9px);
+      
+}
+
+#welcometag{
+
+      display: flex;
+      flex-wrap: nowrap;
+      margin-left: 35px;
+text-align:center;
+    
+      padding: 20px;
+
+      -webkit-text-fill-color: transparent;
+      background: linear-gradient(20deg,cyan,magenta);
+      -webkit-background-clip: text;
+      background-clip: text;
+
+    color: white;
+    
+    
+}
+
+#entertag{
+
+    
+    margin-top: -40px;
+
+      margin-right: 35px;
+  
+      color: white;
+      text-align:center;
+            width:700px;
+            padding: 20px;
+      
+            
+            font-family: 'Times New Roman', Times, serif;
+
+}
+.auto{
+
+      font-size: 30px;
+      font-family: "Footlight MT";
+      margin-bottom: 10px;
+
+}
+
+.card1{
+
+
+
+margin-top: 300px;
+padding-top: 30px;
+padding-bottom: 30px;
+
+color: white;
+
+
+font-family: 'Times New Roman', Times, serif;
+font-size: 50px;
+
+
+}
+
+
+@keyframes slideInLeft {
+
+      from{
+          transform: translateY(-400px);
+      }
+  
+  to {
+      transform:translateX(0px);
+  }    
+  }
+  
+  .slideInLeft{
+      
+      animation-name: slideInLeft;
+  animation-duration: 2s;
+  animation-timing-function:ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  
+  }
+
+
+
+  @keyframes slideInRight {
+
+      from{
+          transform: translateX(-400px);
+      }
+  
+  to {
+      transform:translateX(0px);
+  }    
+  }
+  
+  .slideInRight{
+      
+      animation-name: slideInRight;
+  animation-duration: 2s;
+  animation-timing-function:ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
